@@ -21,7 +21,7 @@ RUN apt-get upgrade
 #install python
 RUN apt-get install -y python2.7 python-pip gcc
 
-RUN apt-get install -y libzmq1
+RUN apt-get install -y libzmq-dev
 RUN apt-get install -y python-zmq
 
 RUN pip install -U "setuptools==3.4.1"
