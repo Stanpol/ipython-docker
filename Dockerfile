@@ -19,7 +19,7 @@ RUN apt-get update
 RUN apt-get upgrade
 
 #install python
-RUN apt-get install -y python2.7 python-pip
+RUN apt-get install -y python2.7 python-pip gcc
 
 RUN apt-get install -y libzmq1
 RUN pip install -U "pyzmq==14.0.1"
