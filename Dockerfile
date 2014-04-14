@@ -22,7 +22,7 @@ RUN apt-get upgrade
 RUN apt-get install -y python2.7 python-pip gcc
 
 RUN apt-get install -y libzmq1
-RUN apt-get install python-zmq
+RUN apt-get install -y python-zmq
 
 RUN pip install -U "setuptools==3.4.1"
 RUN pip install -U "virtualenv==1.11.4"
